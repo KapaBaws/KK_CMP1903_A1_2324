@@ -11,15 +11,11 @@ namespace CMP1903_A1_2324
         public int DieValue { get; set; }
 
         public static Random random = new Random();
-        
-        public  Die()
-        {
- 
-        }
 
+        
         public int Roll()
         {
-            DieValue = random.Next(1,6);
+            DieValue = random.Next(1,7);
             return DieValue;
            
         }
