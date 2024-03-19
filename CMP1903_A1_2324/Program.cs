@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,9 +11,9 @@ namespace CMP1903_A1_2324
         static void Main(string[] args)
         {
             Game dieGame = new Game();
-            dieGame.diceGame();
-            dieGame.repeat();
-            Testing.testGame();
+            dieGame.diceGame(); // Runs the dice game.
+            dieGame.repeat(); // Allows for the game to be repeated until user exits.
+            Testing.testGame(); // Tests the game for errors.
         }
     }
 }
